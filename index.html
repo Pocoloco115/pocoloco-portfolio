@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>William Torres | Game Dev Attempt</title>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Tiny5&display=swap" rel="stylesheet">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="assets/my-character-sprite.png">
+</head>
+<body class="bg-[#0a0a0a] text-[#d97706] font-tiny min-h-screen relative overflow-auto tracking-tight">
+  <div class="max-w-[920px] mx-auto my-8 px-4">
+    
+    <div class="dark-sheet rounded-2xl shadow-2xl overflow-hidden border-8 border-[#3a3a3a]">
+      
+      <div class="relative flex flex-col items-center py-10 bg-[#111111] border-b-8 border-[#3a3a3a]">
+        <img src="assets/my-character-sprite.png" 
+             alt="I made this"
+             class="w-60 h-60 object-contain drop-shadow-2xl animate-float">
+        <h1 class="text-4xl font-bold mt-8 tracking-widest">WILLIAM TORRES</h1>
+        <p class="text-xl text-[#d97706]/80 mt-2">Game Developer Attempt · Nicaragua</p>
+      </div>
+
+      <div id="tabs" class="flex border-b-4 border-[#3a3a3a] text-lg font-medium bg-[#1a1a1a]">
+        <button onclick="switchTab(0)" class="tab-button active flex-1 py-5 transition">▸ LORE</button>
+        <button onclick="switchTab(1)" class="tab-button flex-1 py-5 transition">▸ EQUIPMENT</button>
+        <button onclick="switchTab(2)" class="tab-button flex-1 py-5 transition">▸ QUESTS</button>
+        <button onclick="switchTab(3)" class="tab-button flex-1 py-5 transition">▸ MENTAL STATE</button>
+      </div>
+
+      <div id="content" class="p-10 bg-[#1f1f1f] text-[#cccccc] min-h-[500px]">
+      </div>
+
+      <div class="bg-[#111111] border-t-4 border-[#3a3a3a] p-6 flex justify-center">
+        <a href="https://github.com/Pocoloco115" target="_blank"
+           class="flex items-center gap-3 px-8 py-4 bg-[#2a2a2a] hover:bg-[#3a3a3a] text-[#d97706] font-bold rounded-xl transition-all hover:scale-105 border border-[#d97706]">
+          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" width="32" alt="GitHub">
+          <span>MI GITHUB</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
