@@ -127,7 +127,10 @@ const sections = {
         </details>
         <a href="https://github.com/Pocoloco115/AGameAboutKillingGoats.git" 
            target="_blank"
-           class="inline-flex items-center gap-3 mt-6 px-8 py-3.5 bg-[#2a2a2a] hover:bg-[#3a3a3a] border border-[#d97706] hover:border-[#f5a66b] text-[#d97706] hover:text-[#f5a66b] font-bold rounded-xl transition-all hover:scale-105">
+           class="inline-flex items-center gap-3 mt-6 px-8 py-3.5 bg-[#2a2a2a] 
+           hover:bg-[#3a3a3a] border border-[#d97706] hover:border-[#f5a66b] 
+           text-[#d97706] hover:text-[#f5a66b] font-bold rounded-xl transition-all 
+           hover:scale-105">
           
           <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" 
               width="26" 
@@ -138,8 +141,47 @@ const sections = {
       </div>
     </div>
   `,
-
   3: `
+    <div class="space-y-10">
+      <h2 class="text-3xl font-bold text-center tracking-widest">▸ CONTACT ME</h2>
+      <div class="flex flex-col items-center gap-6">
+        <a href="mailto:wtorres@gmail.com"
+        class="inline-flex items-center gap-3 mt-6 px-8 py-3.5 bg-[#2a2a2a] 
+           hover:bg-[#3a3a3a] border border-[#d97706] hover:border-[#f5a66b] 
+           text-[#d97706] hover:text-[#f5a66b] font-bold rounded-xl transition-all 
+           hover:scale-105">
+          <img src="https://www.vectorlogo.zone/logos/gmail/gmail-icon.svg"
+              width="26" 
+              alt="Email">
+          <span>SEND ME AN EMAIL</span>
+        </a>
+        <a href="https://www.linkedin.com/in/william-torres-389779402/" 
+           target="_blank"
+           class="inline-flex items-center gap-3 mt-6 px-8 py-3.5 bg-[#2a2a2a] 
+              hover:bg-[#3a3a3a] border border-[#d97706] hover:border-[#f5a66b] 
+              text-[#d97706] hover:text-[#f5a66b] font-bold rounded-xl transition-all 
+              hover:scale-105">
+          <img src="https://www.vectorlogo.zone/logos/linkedin/linkedin-icon.svg"
+              width="26" 
+              alt="LinkedIn">
+          <span>VIEW MY LINKEDIN</span>
+        </a>
+        <a href="https://www.instagram.com/not_w.__/?hl=es" 
+           target="_blank"
+           class="inline-flex items-center gap-3 mt-6 px-8 py-3.5 bg-[#2a2a2a] 
+              hover:bg-[#3a3a3a] border border-[#d97706] hover:border-[#f5a66b] 
+              text-[#d97706] hover:text-[#f5a66b] font-bold rounded-xl transition-all 
+              hover:scale-105">
+          <img src="https://www.vectorlogo.zone/logos/instagram/instagram-icon.svg"
+              width="26" 
+              alt="Instagram">
+          <span>VIEW MY INSTAGRAM</span>
+        </a>
+      </div>
+    </div>
+  `,
+
+  4: `
     <div class="space-y-10">
       <h2 class="text-3xl font-bold text-center tracking-widest">▸ MENTAL STATE</h2>
       
