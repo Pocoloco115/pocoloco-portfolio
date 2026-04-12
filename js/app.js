@@ -94,6 +94,28 @@ const sections = {
       </div>
 
       <div class="project-card p-6 rounded-xl">
+        <img src="assets/maze-solver.gif" 
+             alt="Maze Solver & Algorithms Visualizer"
+             class="w-full rounded-xl border-2 border-[#555555] shadow-xl">
+        <h3 class="text-2xl font-bold mb-3">Maze Solver & Algorithms Visualizer</h3>
+        <p class="text-[#bbbbbb]">This is a maze solver visualizer. It doesn't just find the exit; it shows you exactly how much the algorithm struggled to get there. It’s a project built to visualize pathfinding logic in real-time, watching the "flood" of a BFS or the "tunnel vision" of a DFS..</p>
+        <details class="mt-4 text-sm">
+          <summary class="cursor-pointer text-[#d97706] hover:text-[#f5a66b]">Read more...</summary>
+          <p class="mt-3 text-[#aaaaaa]">A Unity tool for learning and visualizing pathfinding.</p>
+        </details>
+        <a href="https://github.com/Pocoloco115/maze-solving-algorithms.git" 
+           target="_blank"
+          class="inline-flex items-center gap-3 mt-6 px-8 py-3.5 bg-[#2a2a2a] hover:bg-[#3a3a3a] border border-[#d97706] hover:border-[#f5a66b] text-[#d97706] hover:text-[#f5a66b] font-bold rounded-xl transition-all hover:scale-105">
+          
+          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" 
+              width="26" 
+              alt="GitHub">
+          
+          <span>VIEW REPOSITORY</span>
+        </a>
+      </div>
+
+      <div class="project-card p-6 rounded-xl">
         <img src="assets/jaguarcin-preview.gif" 
              alt="Jaguarcin"
              class="w-full rounded-xl border-2 border-[#555555] shadow-xl">
@@ -145,7 +167,7 @@ const sections = {
     <div class="space-y-10">
       <h2 class="text-3xl font-bold text-center tracking-widest">▸ CONTACT ME</h2>
       <div class="flex flex-col items-center gap-6">
-        <a href="mailto:wtorres@gmail.com"
+        <a href="mailto:wtorres935115@gmail.com"
         class="inline-flex items-center gap-3 mt-6 px-8 py-3.5 bg-[#2a2a2a] 
            hover:bg-[#3a3a3a] border border-[#d97706] hover:border-[#f5a66b] 
            text-[#d97706] hover:text-[#f5a66b] font-bold rounded-xl transition-all 
@@ -155,7 +177,7 @@ const sections = {
               alt="Email">
           <span>SEND ME AN EMAIL</span>
         </a>
-        <a href="https://www.linkedin.com/in/william-torres-389779402/" 
+        <a href="https://www.linkedin.com/in/william-alberto-torres-moreira-389779402/" 
            target="_blank"
            class="inline-flex items-center gap-3 mt-6 px-8 py-3.5 bg-[#2a2a2a] 
               hover:bg-[#3a3a3a] border border-[#d97706] hover:border-[#f5a66b] 
