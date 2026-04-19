@@ -70,94 +70,217 @@ const sections = {
   2: `
     <div class="space-y-10">
       <h2 class="text-3xl font-bold text-center tracking-widest">▸ QUESTS</h2>
-      
-      <div class="project-card p-6 rounded-xl">
+
+      <!-- Project 1 -->
+      <div class="project-card p-6 rounded-xl border border-[#444]">
+        <img src="assets/maze-solver2.gif" 
+             alt="Maze Solver & Algorithms Visualizer"
+             class="w-full rounded-xl border-2 border-[#555555] shadow-xl">
+        <h3 class="text-2xl font-bold mb-3">Maze Solver & Algorithms Visualizer</h3>
+        <p class="text-[#bbbbbb]">This is a maze solver visualizer. It doesn't just find the exit; it shows you exactly how much the algorithm struggled to get there. It’s a project built to visualize pathfinding logic in real-time.</p>
+        
+        <details class="mt-4 text-sm">
+          <summary class="cursor-pointer text-[#d97706] hover:text-[#f5a66b]">Read more + Tools used</summary>
+          <div class="mt-4 pl-2 text-sm space-y-3">
+            <p class="text-[#aaaaaa]">A Unity tool for learning and visualizing pathfinding algorithms like BFS and DFS in real-time.</p>
+            <div class="mt-5">
+              <p class="text-[#d97706] text-xs uppercase tracking-widest mb-3">Tools & Technologies</p>
+              <ul class="space-y-1.5 text-[#cccccc]">
+                <li class="flex items-start gap-3">
+                  <span class="text-[#d97706] mt-1">▸</span>
+                  <span><strong>Unity</strong> — Game Engine</span>
+                </li>
+                <li class="flex items-start gap-3">
+                  <span class="text-[#d97706] mt-1">▸</span>
+                  <span><strong>C#</strong> + <strong>.NET</strong> — Programming</span>
+                </li>
+                <li class="flex items-start gap-3">
+                  <span class="text-[#d97706] mt-1">▸</span>
+                  <span><strong>Piskel</strong> — Pixel Art</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </details>
+
+        <a href="https://github.com/Pocoloco115/maze-solving-algorithms.git" 
+           target="_blank"
+           class="inline-flex items-center gap-3 mt-6 px-8 py-3.5 bg-[#2a2a2a] hover:bg-[#3a3a3a] border border-[#d97706] hover:border-[#f5a66b] text-[#d97706] hover:text-[#f5a66b] font-bold rounded-xl transition-all hover:scale-105">
+          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" 
+               width="26" 
+               alt="GitHub">
+          <span>VIEW REPOSITORY</span>
+        </a>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project-card p-6 rounded-xl border border-[#444]">
         <img src="assets/procedural-map-preview.gif" 
              alt="Procedural Map Generator"
              class="w-full rounded-xl border-2 border-[#555555] shadow-xl">
         <h3 class="text-2xl font-bold mb-3">Procedural Map Generator</h3>
         <p class="text-[#bbbbbb]">Interactive tool to generate procedural maps in Unity with a real-time menu to adjust parameters like size, density, noise, etc.</p>
+        
         <details class="mt-4 text-sm">
-          <summary class="cursor-pointer text-[#d97706] hover:text-[#f5a66b]">Read more...</summary>
-          <p class="mt-3 text-[#aaaaaa]">You can try different parameters and see the map generated instantly.</p>
+          <summary class="cursor-pointer text-[#d97706] hover:text-[#f5a66b]">Read more + Tools used</summary>
+          <div class="mt-4 pl-2 text-sm space-y-3">
+            <p class="text-[#aaaaaa]">This is an interactive procedural map generator made in Unity. You can change parameters in real time and see the map being generated instantly.</p>
+            <div class="mt-5">
+              <p class="text-[#d97706] text-xs uppercase tracking-widest mb-3">Tools & Technologies</p>
+              <ul class="space-y-1.5 text-[#cccccc]">
+                <li class="flex items-start gap-3">
+                  <span class="text-[#d97706] mt-1">▸</span>
+                  <span><strong>Unity</strong> — Game Engine</span>
+                </li>
+                <li class="flex items-start gap-3">
+                  <span class="text-[#d97706] mt-1">▸</span>
+                  <span><strong>C#</strong> + <strong>.NET</strong> — Programming</span>
+                </li>
+                <li class="flex items-start gap-3">
+                  <span class="text-[#d97706] mt-1">▸</span>
+                  <span><strong>Piskel</strong> — Pixel Art</span>
+                </li>
+              </ul>
+            </div>
+          </div>
         </details>
-        <a href="https://github.com/Pocoloco115/ProceduralMapGenerator.git" 
+
+        <a href="https://github.com/Pocoloco115/procedural-map-generator.git" 
            target="_blank"
-          class="inline-flex items-center gap-3 mt-6 px-8 py-3.5 bg-[#2a2a2a] hover:bg-[#3a3a3a] border border-[#d97706] hover:border-[#f5a66b] text-[#d97706] hover:text-[#f5a66b] font-bold rounded-xl transition-all hover:scale-105">
-          
+           class="inline-flex items-center gap-3 mt-6 px-8 py-3.5 bg-[#2a2a2a] hover:bg-[#3a3a3a] border border-[#d97706] hover:border-[#f5a66b] text-[#d97706] hover:text-[#f5a66b] font-bold rounded-xl transition-all hover:scale-105">
           <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" 
-              width="26" 
-              alt="GitHub">
-          
+               width="26" 
+               alt="GitHub">
           <span>VIEW REPOSITORY</span>
         </a>
       </div>
 
-      <div class="project-card p-6 rounded-xl">
-        <img src="assets/maze-solver.gif" 
-             alt="Maze Solver & Algorithms Visualizer"
-             class="w-full rounded-xl border-2 border-[#555555] shadow-xl">
-        <h3 class="text-2xl font-bold mb-3">Maze Solver & Algorithms Visualizer</h3>
-        <p class="text-[#bbbbbb]">This is a maze solver visualizer. It doesn't just find the exit; it shows you exactly how much the algorithm struggled to get there. It’s a project built to visualize pathfinding logic in real-time, watching the "flood" of a BFS or the "tunnel vision" of a DFS..</p>
-        <details class="mt-4 text-sm">
-          <summary class="cursor-pointer text-[#d97706] hover:text-[#f5a66b]">Read more...</summary>
-          <p class="mt-3 text-[#aaaaaa]">A Unity tool for learning and visualizing pathfinding.</p>
-        </details>
-        <a href="https://github.com/Pocoloco115/maze-solving-algorithms.git" 
-           target="_blank"
-          class="inline-flex items-center gap-3 mt-6 px-8 py-3.5 bg-[#2a2a2a] hover:bg-[#3a3a3a] border border-[#d97706] hover:border-[#f5a66b] text-[#d97706] hover:text-[#f5a66b] font-bold rounded-xl transition-all hover:scale-105">
-          
-          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" 
-              width="26" 
-              alt="GitHub">
-          
-          <span>VIEW REPOSITORY</span>
-        </a>
-      </div>
-
-      <div class="project-card p-6 rounded-xl">
+      <!-- Project 3 -->
+      <div class="project-card p-6 rounded-xl border border-[#444]">
         <img src="assets/jaguarcin-preview.gif" 
              alt="Jaguarcin"
              class="w-full rounded-xl border-2 border-[#555555] shadow-xl">
         <h3 class="text-2xl font-bold mb-3">Jaguarcin</h3>
         <p class="text-[#bbbbbb]">2D platformer with fluid mechanics: double jump, dash, and wall climbing. University project currently in beta.</p>
+        
         <details class="mt-4 text-sm">
-          <summary class="cursor-pointer text-[#d97706] hover:text-[#f5a66b]">Read more...</summary>
-          <p class="mt-3 text-[#aaaaaa]">Currently in development with a playable beta version.</p>
+          <summary class="cursor-pointer text-[#d97706] hover:text-[#f5a66b]">Read more + Tools used</summary>
+          <div class="mt-4 pl-2 text-sm space-y-3">
+            <p class="text-[#aaaaaa]">Currently in development with a playable beta version.</p>
+            <div class="mt-5">
+              <p class="text-[#d97706] text-xs uppercase tracking-widest mb-3">Tools & Technologies</p>
+              <ul class="space-y-1.5 text-[#cccccc]">
+                <li class="flex items-start gap-3">
+                  <span class="text-[#d97706] mt-1">▸</span>
+                  <span><strong>Unity</strong> — Game Engine</span>
+                </li>
+                <li class="flex items-start gap-3">
+                  <span class="text-[#d97706] mt-1">▸</span>
+                  <span><strong>C#</strong> + <strong>.NET</strong> — Programming</span>
+                </li>
+                <li class="flex items-start gap-3">
+                  <span class="text-[#d97706] mt-1">▸</span>
+                  <span><strong>Piskel</strong> — Pixel Art</span>
+                </li>
+              </ul>
+            </div>
+          </div>
         </details>
+
         <a href="https://github.com/Pocoloco115/UAM-Game.git" 
-          target="_blank"
-          class="inline-flex items-center gap-3 mt-6 px-8 py-3.5 bg-[#2a2a2a] hover:bg-[#3a3a3a] border border-[#d97706] hover:border-[#f5a66b] text-[#d97706] hover:text-[#f5a66b] font-bold rounded-xl transition-all hover:scale-105">
-          
+           target="_blank"
+           class="inline-flex items-center gap-3 mt-6 px-8 py-3.5 bg-[#2a2a2a] hover:bg-[#3a3a3a] border border-[#d97706] hover:border-[#f5a66b] text-[#d97706] hover:text-[#f5a66b] font-bold rounded-xl transition-all hover:scale-105">
           <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" 
-              width="26" 
-              alt="GitHub">
-          
+               width="26" 
+               alt="GitHub">
           <span>VIEW REPOSITORY</span>
         </a>
       </div>
 
-      <div class="project-card p-6 rounded-xl">
+      <!-- Project 4 -->
+      <div class="project-card p-6 rounded-xl border border-[#444]">
         <img src="assets/goats-fps-preview.gif" 
              alt="A Game About Killing Goats"
              class="w-full rounded-xl border-2 border-[#555555] shadow-xl">
         <h3 class="text-2xl font-bold mb-3">A Game About Killing Goats</h3>
         <p class="text-[#bbbbbb]">Chaotic FPS where your only goal is to massacre goats in a coliseum using a pistol.</p>
+        
         <details class="mt-4 text-sm">
-          <summary class="cursor-pointer text-[#d97706] hover:text-[#f5a66b]">Read more...</summary>
-          <p class="mt-3 text-[#aaaaaa]">Currently in development with a playable beta version. The final version is planned to be released on Steam, assuming the goats allow it.</p>
+          <summary class="cursor-pointer text-[#d97706] hover:text-[#f5a66b]">Read more + Tools used</summary>
+          <div class="mt-4 pl-2 text-sm space-y-3">
+            <p class="text-[#aaaaaa]">Currently in development with a playable beta version.</p>
+            <div class="mt-5">
+              <p class="text-[#d97706] text-xs uppercase tracking-widest mb-3">Tools & Technologies</p>
+              <ul class="space-y-1.5 text-[#cccccc]">
+                <li class="flex items-start gap-3">
+                  <span class="text-[#d97706] mt-1">▸</span>
+                  <span><strong>Unity</strong> — Game Engine</span>
+                </li>
+                <li class="flex items-start gap-3">
+                  <span class="text-[#d97706] mt-1">▸</span>
+                  <span><strong>C#</strong> + <strong>.NET</strong> — Programming</span>
+                </li>
+                <li class="flex items-start gap-3">
+                  <span class="text-[#d97706] mt-1">▸</span>
+                  <span><strong>Piskel</strong> — Pixel Art</span>
+                </li>
+                <li class="flex items-start gap-3">
+                  <span class="text-[#d97706] mt-1">▸</span>
+                  <span><strong>Blender</strong> — 3D Modeling</span>
+                </li>
+              </ul>
+            </div>
+          </div>
         </details>
+
         <a href="https://github.com/Pocoloco115/AGameAboutKillingGoats.git" 
            target="_blank"
-           class="inline-flex items-center gap-3 mt-6 px-8 py-3.5 bg-[#2a2a2a] 
-           hover:bg-[#3a3a3a] border border-[#d97706] hover:border-[#f5a66b] 
-           text-[#d97706] hover:text-[#f5a66b] font-bold rounded-xl transition-all 
-           hover:scale-105">
-          
+           class="inline-flex items-center gap-3 mt-6 px-8 py-3.5 bg-[#2a2a2a] hover:bg-[#3a3a3a] border border-[#d97706] hover:border-[#f5a66b] text-[#d97706] hover:text-[#f5a66b] font-bold rounded-xl transition-all hover:scale-105">
           <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" 
-              width="26" 
-              alt="GitHub">
-          
+               width="26" 
+               alt="GitHub">
+          <span>VIEW REPOSITORY</span>
+        </a>
+      </div>
+
+      <!-- Project 5 -->
+      <div class="project-card p-6 rounded-xl border border-[#444]">
+        <img src="assets/snake-gameplay2.gif" 
+             alt="Classic Snake Game"
+             class="w-full rounded-xl border-2 border-[#555555] shadow-xl">
+        <h3 class="text-2xl font-bold mb-3">Classic Snake Game</h3>
+        <p class="text-[#bbbbbb]">It’s the classic snake game, not a reinvention, not a cinematic universe, not a battle royale, just a snake, made by me.</p>
+        
+        <details class="mt-4 text-sm">
+          <summary class="cursor-pointer text-[#d97706] hover:text-[#f5a66b]">Read more + Tools used</summary>
+          <div class="mt-4 pl-2 text-sm space-y-3">
+            <p class="text-[#aaaaaa]">This is my second Snake game ever, but the first one I built using Unity with C# and pixel art sprites.</p>
+            <div class="mt-5">
+              <p class="text-[#d97706] text-xs uppercase tracking-widest mb-3">Tools & Technologies</p>
+              <ul class="space-y-1.5 text-[#cccccc]">
+                <li class="flex items-start gap-3">
+                  <span class="text-[#d97706] mt-1">▸</span>
+                  <span><strong>Unity</strong> — Game Engine</span>
+                </li>
+                <li class="flex items-start gap-3">
+                  <span class="text-[#d97706] mt-1">▸</span>
+                  <span><strong>C#</strong> + <strong>.NET</strong> — Programming</span>
+                </li>
+                <li class="flex items-start gap-3">
+                  <span class="text-[#d97706] mt-1">▸</span>
+                  <span><strong>Piskel</strong> — Pixel Art</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </details>
+
+        <a href="https://github.com/Pocoloco115/SnakeWithUnity.git" 
+           target="_blank"
+           class="inline-flex items-center gap-3 mt-6 px-8 py-3.5 bg-[#2a2a2a] hover:bg-[#3a3a3a] border border-[#d97706] hover:border-[#f5a66b] text-[#d97706] hover:text-[#f5a66b] font-bold rounded-xl transition-all hover:scale-105">
+          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" 
+               width="26" 
+               alt="GitHub">
           <span>VIEW REPOSITORY</span>
         </a>
       </div>
@@ -167,19 +290,31 @@ const sections = {
     <div class="space-y-10">
       <h2 class="text-3xl font-bold text-center tracking-widest">▸ CONTACT ME</h2>
       <div class="flex flex-col items-center gap-6">
-        <a href="mailto:wtorres935115@gmail.com"
-        class="inline-flex items-center gap-3 mt-6 px-8 py-3.5 bg-[#2a2a2a] 
-           hover:bg-[#3a3a3a] border border-[#d97706] hover:border-[#f5a66b] 
-           text-[#d97706] hover:text-[#f5a66b] font-bold rounded-xl transition-all 
-           hover:scale-105">
-          <img src="https://www.vectorlogo.zone/logos/gmail/gmail-icon.svg"
-              width="26" 
-              alt="Email">
-          <span>SEND ME AN EMAIL</span>
-        </a>
+      <div class="w-full max-w-md bg-[#2a2a2a] border border-[#555] rounded-xl p-5 flex items-center gap-4 mt-2">
+          <div class="flex-1">
+            <p class="text-[#d97706] text-xs uppercase tracking-widest mb-1">My Email</p>
+            <p id="email-text" 
+               class="font-mono text-[#cccccc] select-all break-all">
+              wtorres935115@gmail.com
+            </p>
+          </div>
+          
+          <button onclick="copyEmail()" 
+                  class="px-5 py-2.5 bg-[#1f1f1f] hover:bg-[#333] border border-[#666] hover:border-[#888] text-[#cccccc] rounded-lg transition-all active:scale-95 flex items-center gap-2 text-sm">
+            <span>Copy</span>
+          </button>
+
+          <a href="mailto:wtorres935115@gmail.com"
+             class="px-5 py-2.5 bg-[#2a2a2a] hover:bg-[#3a3a3a] border border-[#d97706] hover:border-[#f5a66b] text-[#d97706] rounded-lg transition-all flex items-center gap-2 text-sm">
+            <img src="https://www.vectorlogo.zone/logos/gmail/gmail-icon.svg" 
+                 width="22" 
+                 alt="Email">
+            <span>Send</span>
+          </a>
+        </div>
         <a href="https://www.linkedin.com/in/william-alberto-torres-moreira-389779402/" 
            target="_blank"
-           class="inline-flex items-center gap-3 mt-6 px-8 py-3.5 bg-[#2a2a2a] 
+           class="inline-flex items-center gap-3 mt-2 px-8 py-3.5 bg-[#2a2a2a] 
               hover:bg-[#3a3a3a] border border-[#d97706] hover:border-[#f5a66b] 
               text-[#d97706] hover:text-[#f5a66b] font-bold rounded-xl transition-all 
               hover:scale-105">
@@ -190,14 +325,24 @@ const sections = {
         </a>
         <a href="https://www.instagram.com/not_w.__/?hl=es" 
            target="_blank"
-           class="inline-flex items-center gap-3 mt-6 px-8 py-3.5 bg-[#2a2a2a] 
-              hover:bg-[#3a3a3a] border border-[#d97706] hover:border-[#f5a66b] 
-              text-[#d97706] hover:text-[#f5a66b] font-bold rounded-xl transition-all 
-              hover:scale-105">
+           class="inline-flex items-center gap-3 mt-2 px-8 py-3.5 bg-[#2a2a2a]
+           hover:bg-[#3a3a3a] border border-[#d97706] hover:border-[#f5a66b]
+           text-[#d97706] hover:text-[#f5a66b] font-bold rounded-xl transition-all
+           hover:scale-105">
           <img src="https://www.vectorlogo.zone/logos/instagram/instagram-icon.svg"
               width="26" 
               alt="Instagram">
           <span>VIEW MY INSTAGRAM</span>
+        </a>
+        <a href="assets/William_Torres_CV.pdf"
+           target="_blank" 
+           download="William_Torres_CV.pdf"
+           class="inline-flex items-center gap-3 px-8 py-3.5 bg-[#2a2a2a] 
+           hover:bg-[#3a3a3a] border border-[#d97706] hover:border-[#f5a66b] 
+           text-[#d97706] hover:text-[#f5a66b] font-bold rounded-xl transition-all 
+           hover:scale-105 mt-2 justify-center">
+          <span class="text-xl">↓</span>
+          <span>DOWNLOAD MY CURRICULUM (PDF)</span>
         </a>
       </div>
     </div>
@@ -215,12 +360,24 @@ const sections = {
     </div>
   `,
 };
-
+function copyEmail() {
+  const email = "wtorres935115@gmail.com";
+  navigator.clipboard.writeText(email).then(() => {
+    const btn = document.querySelector('button[onclick="copyEmail()"]');
+    const originalText = btn.innerHTML;
+    btn.innerHTML = 'Copied!';
+    btn.style.borderColor = '#22c55e';
+    
+    setTimeout(() => {
+      btn.innerHTML = originalText;
+      btn.style.borderColor = '';
+    }, 2000);
+  });
+}
 function switchTab(n) {
   document.getElementById('content').innerHTML = sections[n];
   document.querySelectorAll('.tab-button').forEach((btn, i) => {
     btn.classList.toggle('active', i === n);
   });
 }
-
 window.onload = () => switchTab(0);
