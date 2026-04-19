@@ -11,19 +11,21 @@ const sections = {
        so you can judge my knowledge for yourself. So, without further ado, 
        I hope you enjoy reviewing this portfolio :).</p>
       
-      <table class="mx-auto text-center border border-[#555] text-sm">
-        <tr><td class="p-3"><b>Class:</b></td><td class="p-3">Game Developer</td></tr>
-        <tr><td class="p-3"><b>Main Engine:</b></td><td class="p-3">Unity</td></tr>
-        <tr><td class="p-3"><b>Programming:</b></td><td class="p-3">C# · .NET</td></tr>
-        <tr><td class="p-3"><b>Origin:</b></td><td class="p-3">Universidad Americana (UAM), Nicaragua</td></tr>
-        <tr><td class="p-3"><b>Progression:</b></td><td class="p-3">f(x) = random spikes of motivation</td></tr>
-        <tr><td class="p-3"><b>Art Tools:</b></td><td class="p-3">Piskel · Beginner Blender</td></tr>
-      </table>
+      <div class="flex flex-col md:flex-row items-center justify-center gap-6">
+        <table class="mx-auto text-center border border-[#555] text-sm">
+          <tr><td class="px-3 py-2"><b>Class:</b></td><td class="px-3 py-2">Game Developer</td></tr>
+          <tr><td class="px-3 py-2"><b>Main Engine:</b></td><td class="px-3 py-2">Unity</td></tr>
+          <tr><td class="px-3 py-2"><b>Programming:</b></td><td class="px-3 py-2">C# · .NET</td></tr>
+          <tr><td class="px-3 py-2"><b>Origin:</b></td><td class="px-3 py-2">Universidad Americana (UAM), Nicaragua</td></tr>
+          <tr><td class="px-3 py-2"><b>Progression:</b></td><td class="px-3 py-2">f(x) = random spikes of motivation</td></tr>
+          <tr><td class="px-3 py-2"><b>Art Tools:</b></td><td class="px-3 py-2">Piskel · Beginner Blender</td></tr>
+        </table>
 
-      <div class="flex justify-center">
-        <img src="assets/bonfire.gif" 
-             alt="Bonfire" 
-             class="rounded-xl border-2 border-[#555555] shadow-xl max-w-[600px]">
+        <div class="flex justify-center">
+          <img src="assets/bonfire.gif" 
+              alt="Bonfire" 
+              class="rounded-xl border-2 border-[#555555] shadow-xl max-w-[420px]">
+        </div>
       </div>
     </div>
   `,
@@ -288,73 +290,61 @@ const sections = {
   `,
   3: `
     <div class="space-y-10">
-      <h2 class="text-3xl font-bold text-center tracking-widest">▸ CONTACT ME</h2>
-      <div class="flex flex-col items-center gap-6">
-      <div class="w-full max-w-md bg-[#2a2a2a] border border-[#555] rounded-xl p-5 flex items-center gap-4 mt-2">
-          <div class="flex-1">
-            <p class="text-[#d97706] text-xs uppercase tracking-widest mb-1">My Email</p>
-            <p id="email-text" 
-               class="font-mono text-[#cccccc] select-all break-all">
-              wtorres935115@gmail.com
-            </p>
-          </div>
-          
-          <button onclick="copyEmail()" 
-                  class="px-5 py-2.5 bg-[#1f1f1f] hover:bg-[#333] border border-[#666] hover:border-[#888] text-[#cccccc] rounded-lg transition-all active:scale-95 flex items-center gap-2 text-sm">
-            <span>Copy</span>
-          </button>
+      <h2 class="text-3xl font-bold text-center tracking-widest uppercase">▸ Contact Me</h2>
 
-          <a href="mailto:wtorres935115@gmail.com"
-             class="px-5 py-2.5 bg-[#2a2a2a] hover:bg-[#3a3a3a] border border-[#d97706] hover:border-[#f5a66b] text-[#d97706] rounded-lg transition-all flex items-center gap-2 text-sm">
-            <img src="https://www.vectorlogo.zone/logos/gmail/gmail-icon.svg" 
-                 width="22" 
-                 alt="Email">
-            <span>Send</span>
+      <div class="flex flex-col md:flex-row items-center md:items-start justify-center gap-10">
+        
+        <div class="flex flex-col items-start gap-10 w-full max-w-md">
+          
+          <div class="w-full bg-[#2a2a2a] border border-[#555] rounded-xl p-5 flex items-center gap-4">
+            <div class="flex-1">
+              <p class="text-[#d97706] text-xs uppercase tracking-widest justify-center items-center mb-1">My Email</p>
+              <p id="email-text" class="font-mono text-[#cccccc] justify-center items-center select-all break-all text-sm">
+                wtorres935115@gmail.com
+              </p>
+            </div>
+            <button onclick="copyEmail()" class="px-4 py-3 bg-[#1f1f1f] hover:bg-[#3a3a3a] border border-[#d97706] hover:border-[#f5a66b] text-[#cccccc] rounded-lg transition-all active:scale-95 hover:scale-105 text-xs">
+              Copy
+            </button>
+            <a href="mailto:wtorres935115@gmail.com" class="px-4 py-3 bg-[#1f1f1f] hover:bg-[#3a3a3a] border border-[#d97706] hover:border-[#f5a66b] rounded-lg transition-all active:scale-95 hover:scale-105 flex items-center">
+              <img src="https://www.vectorlogo.zone/logos/gmail/gmail-icon.svg" width="18" alt="Email">
+            </a>
+          </div>
+
+          <a href="https://www.linkedin.com/..." target="_blank" class="w-full inline-flex items-center gap-3 px-8 py-3.5 bg-[#2a2a2a] border border-[#d97706] text-[#d97706] font-bold rounded-xl transition-all hover:scale-105 justify-center">
+            <img src="https://www.vectorlogo.zone/logos/linkedin/linkedin-icon.svg" width="26" alt="LinkedIn">
+            <span>VIEW MY LINKEDIN</span>
+          </a>
+
+          <a href="https://www.instagram.com/..." target="_blank" class="w-full inline-flex items-center gap-3 px-8 py-3.5 bg-[#2a2a2a] border border-[#d97706] text-[#d97706] font-bold rounded-xl transition-all hover:scale-105 justify-center">
+            <img src="https://www.vectorlogo.zone/logos/instagram/instagram-icon.svg" width="26" alt="Instagram">
+            <span>VIEW MY INSTAGRAM</span>
+          </a>
+
+          <a href="assets/William_Torres_CV.pdf" download class="w-full inline-flex items-center gap-3 px-8 py-3.5 bg-[#2a2a2a] border border-[#d97706] text-[#d97706] font-bold rounded-xl transition-all hover:scale-105 justify-center">
+            <span class="text-xl">↓</span>
+            <span>DOWNLOAD MY CV (PDF)</span>
           </a>
         </div>
-        <a href="https://www.linkedin.com/in/william-alberto-torres-moreira-389779402/" 
-           target="_blank"
-           class="inline-flex items-center gap-3 mt-2 px-8 py-3.5 bg-[#2a2a2a] 
-              hover:bg-[#3a3a3a] border border-[#d97706] hover:border-[#f5a66b] 
-              text-[#d97706] hover:text-[#f5a66b] font-bold rounded-xl transition-all 
-              hover:scale-105">
-          <img src="https://www.vectorlogo.zone/logos/linkedin/linkedin-icon.svg"
-              width="26" 
-              alt="LinkedIn">
-          <span>VIEW MY LINKEDIN</span>
-        </a>
-        <a href="https://www.instagram.com/not_w.__/?hl=es" 
-           target="_blank"
-           class="inline-flex items-center gap-3 mt-2 px-8 py-3.5 bg-[#2a2a2a]
-           hover:bg-[#3a3a3a] border border-[#d97706] hover:border-[#f5a66b]
-           text-[#d97706] hover:text-[#f5a66b] font-bold rounded-xl transition-all
-           hover:scale-105">
-          <img src="https://www.vectorlogo.zone/logos/instagram/instagram-icon.svg"
-              width="26" 
-              alt="Instagram">
-          <span>VIEW MY INSTAGRAM</span>
-        </a>
-        <a href="assets/William_Torres_CV.pdf"
-           target="_blank" 
-           download="William_Torres_CV.pdf"
-           class="inline-flex items-center gap-3 px-8 py-3.5 bg-[#2a2a2a] 
-           hover:bg-[#3a3a3a] border border-[#d97706] hover:border-[#f5a66b] 
-           text-[#d97706] hover:text-[#f5a66b] font-bold rounded-xl transition-all 
-           hover:scale-105 mt-2 justify-center">
-          <span class="text-xl">↓</span>
-          <span>DOWNLOAD MY CURRICULUM (PDF)</span>
-        </a>
+
+        <div class="w-full max-w-[390px] md:max-w-[390px]">
+          <img src="assets/PLAYER.gif" 
+              alt="Contact Illustration" 
+              class="rounded-2xl">
+        </div>
+
       </div>
     </div>
+
   `,
 
   4: `
     <div class="space-y-10">
-      <h2 class="text-3xl font-bold text-center tracking-widest">▸ MENTAL STATE</h2>
+      <h2 class="text-3xl font-bold text-center tracking-widest">▸ MOOD LATELY</h2>
       
       <div class="flex justify-center">
         <img src="assets/game-dev-side.gif" 
-            alt="Mental State" 
+            alt="Mood Lately" 
             class="rounded-2xl border-2 border-[#555555] shadow-2xl max-w-[600px] w-full">
       </div>
     </div>
