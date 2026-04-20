@@ -38,26 +38,44 @@ const sections = {
         <div class="inventory-item">
           <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/unity/unity-original.svg" alt="Unity">
           <span>Unity</span>
+          <div class="tooltip">
+            Main game engine used for all my projects
+          </div>
         </div>
         <div class="inventory-item">
           <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="C#">
           <span>C#</span>
+          <div class="tooltip">
+            Primary programming language for for Unity development and other projects
+          </div>
         </div>
         <div class="inventory-item">
           <img src="assets/my-character-sprite.png" alt="Piskel" onerror="this.style.display='none'">
           <span>Piskel</span>
+          <div class="tooltip">
+            Tool used to create all pixel art sprites and animations
+          </div>
         </div>
         <div class="inventory-item">
           <img src="https://download.blender.org/branding/community/blender_community_badge_white.svg" alt="Blender">
           <span>Blender</span>
+          <div class="tooltip">
+            Beginner 3D modeling and asset creation
+          </div>
         </div>
         <div class="inventory-item">
           <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git">
           <span>Git</span>
+          <div class="tooltip">
+            Version control for all my projects
+          </div>
         </div>
         <div class="inventory-item">
           <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" alt="GitHub">
           <span>GitHub</span>
+          <div class="tooltip">
+            Hosting and showcasing all my code repositories
+          </div>
         </div>
       </div>
 
