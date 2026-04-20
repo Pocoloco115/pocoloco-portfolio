@@ -311,12 +311,12 @@ const sections = {
             </a>
           </div>
 
-          <a href="https://www.linkedin.com/..." target="_blank" class="w-full inline-flex items-center gap-3 px-8 py-3.5 bg-[#2a2a2a] border border-[#d97706] text-[#d97706] font-bold rounded-xl transition-all hover:scale-105 justify-center">
+          <a href="https://www.linkedin.com/in/william-alberto-torres-moreira-389779402/" target="_blank" class="w-full inline-flex items-center gap-3 px-8 py-3.5 bg-[#2a2a2a] border border-[#d97706] text-[#d97706] font-bold rounded-xl transition-all hover:scale-105 justify-center">
             <img src="https://www.vectorlogo.zone/logos/linkedin/linkedin-icon.svg" width="26" alt="LinkedIn">
             <span>VIEW MY LINKEDIN</span>
           </a>
 
-          <a href="https://www.instagram.com/..." target="_blank" class="w-full inline-flex items-center gap-3 px-8 py-3.5 bg-[#2a2a2a] border border-[#d97706] text-[#d97706] font-bold rounded-xl transition-all hover:scale-105 justify-center">
+          <a href="https://www.instagram.com/not_w.__/?hl=es" target="_blank" class="w-full inline-flex items-center gap-3 px-8 py-3.5 bg-[#2a2a2a] border border-[#d97706] text-[#d97706] font-bold rounded-xl transition-all hover:scale-105 justify-center">
             <img src="https://www.vectorlogo.zone/logos/instagram/instagram-icon.svg" width="26" alt="Instagram">
             <span>VIEW MY INSTAGRAM</span>
           </a>
