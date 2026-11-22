@@ -5,10 +5,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "msedge",
+            "name": "Launch index.html",
+            "type": "chrome",
             "request": "launch",
-            "name": "Open index.html",
-            "file": "c:\\Users\\willy\\OneDrive\\Desktop\\my_portfolio\\index.html"
+            "file": "${workspaceFolder}/index.html",
         }
     ]
 }

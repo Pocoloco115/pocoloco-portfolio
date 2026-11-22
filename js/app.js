@@ -334,9 +334,9 @@ const sections = {
             <span>VIEW MY LINKEDIN</span>
           </a>
 
-          <a href="https://www.instagram.com/not_w.__/?hl=es" target="_blank" class="w-full inline-flex items-center gap-3 px-8 py-3.5 bg-[#2a2a2a] border border-[#d97706] text-[#d97706] font-bold rounded-xl transition-all hover:scale-105 justify-center">
-            <img src="https://www.vectorlogo.zone/logos/instagram/instagram-icon.svg" width="26" alt="Instagram">
-            <span>VIEW MY INSTAGRAM</span>
+          <a href="https://open.spotify.com/user/31m6njoc6z2vugoo6y4ony46ltgy?si=16925da34aa84604" target="_blank" class="w-full inline-flex items-center gap-3 px-8 py-3.5 bg-[#2a2a2a] border border-[#d97706] text-[#d97706] font-bold rounded-xl transition-all hover:scale-105 justify-center">
+            <img src="https://www.vectorlogo.zone/logos/spotify/spotify-icon.svg" width="26" alt="Spotify">
+            <span>VIEW MY SPOTIFY</span>
           </a>
 
           <a href="assets/William_Torres_CV.pdf" download class="w-full inline-flex items-center gap-3 px-8 py-3.5 bg-[#2a2a2a] border border-[#d97706] text-[#d97706] font-bold rounded-xl transition-all hover:scale-105 justify-center">
